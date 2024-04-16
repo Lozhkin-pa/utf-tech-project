@@ -11,6 +11,7 @@ class FoodCategoryListView(ListAPIView):
 
     def get_queryset(self):
         subquery = Food.objects.filter(is_publish=True)
-        return FoodCategory.objects.exclude(food=None).prefetch_related(
-            Prefetch('food', queryset=subquery)
-        ).order_by('id')
+        prefetch = Prefetch('food', queryset=subquery)
+        return FoodCategory.objects.filter(
+            food__is_publish=True
+        ).distinct().prefetch_related(prefetch).order_by('id')

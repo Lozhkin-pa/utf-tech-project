@@ -21,6 +21,13 @@
       }
     },
     {
+      "model": "menu.FoodCategory",
+      "pk": 4,
+      "fields": {
+        "name_ru": "Десерт"
+      }
+    },
+    {
       "model": "menu.Food",
       "pk": 1,
       "fields": {
@@ -84,6 +91,17 @@
         "cost": 123,
         "is_publish": false,
         "category": 2
+      }
+    },
+    {
+      "model": "menu.Food",
+      "pk": 7,
+      "fields": {
+        "code": 6,
+        "name_ru": "Чизкейк",
+        "cost": 123,
+        "is_publish": false,
+        "category": 4
       }
     }
 ]
