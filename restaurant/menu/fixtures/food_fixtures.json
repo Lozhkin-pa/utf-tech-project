@@ -1,0 +1,89 @@
+[
+    {
+      "model": "menu.FoodCategory",
+      "pk": 1,
+      "fields": {
+        "name_ru": "Напитки"
+      }
+    },
+    {
+      "model": "menu.FoodCategory",
+      "pk": 2,
+      "fields": {
+        "name_ru": "Выпечка"
+      }
+    },
+    {
+      "model": "menu.FoodCategory",
+      "pk": 3,
+      "fields": {
+        "name_ru": "Салаты"
+      }
+    },
+    {
+      "model": "menu.Food",
+      "pk": 1,
+      "fields": {
+        "code": 1,
+        "name_ru": "Чай",
+        "cost": 123,
+        "is_publish": true,
+        "category": 1
+      }
+    },
+    {
+      "model": "menu.Food",
+      "pk": 2,
+      "fields": {
+        "code": 2,
+        "name_ru": "Спрайт",
+        "cost": 123,
+        "is_publish": true,
+        "category": 1
+      }
+    },
+    {
+      "model": "menu.Food",
+      "pk": 3,
+      "fields": {
+        "code": 3,
+        "name_ru": "Кола",
+        "cost": 123,
+        "is_publish": false,
+        "category": 1
+      }
+    },
+    {
+      "model": "menu.Food",
+      "pk": 4,
+      "fields": {
+        "code": 4,
+        "name_ru": "Байкал",
+        "cost": 123,
+        "is_publish": true,
+        "category": 1
+      }
+    },
+    {
+      "model": "menu.Food",
+      "pk": 5,
+      "fields": {
+        "code": 5,
+        "name_ru": "Булочка с маком",
+        "cost": 123,
+        "is_publish": true,
+        "category": 2
+      }
+    },
+    {
+      "model": "menu.Food",
+      "pk": 6,
+      "fields": {
+        "code": 6,
+        "name_ru": "Булочка с корицей",
+        "cost": 123,
+        "is_publish": false,
+        "category": 2
+      }
+    }
+]

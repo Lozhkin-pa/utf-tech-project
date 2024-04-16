@@ -60,7 +60,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'restaurant.urls'
+ROOT_URLCONF = 'api.urls'
 
 TEMPLATES = [
     {
